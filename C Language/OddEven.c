@@ -7,11 +7,7 @@ int main()
 	printf("Enter a Number:\n");
 	scanf("%d",&a);
 	
-	if(a%2==0)
-	printf(" %d is Even\n",a); //even number
-	
-	else
-	printf(" %d is Odd\n",a);  //odd number
+	 n%2 == 0 ? printf("Even\n") : printf("Odd\n");
 	
 	
 	return 0;
